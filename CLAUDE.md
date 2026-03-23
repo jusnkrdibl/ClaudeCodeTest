@@ -13,13 +13,18 @@ open shooter.html
 
 ## Git & GitHub Workflow
 
-After every meaningful change: commit with a clean message and push.
+**After every meaningful change, always commit and push immediately.** This is a hard requirement — never leave completed work uncommitted. Each feature, fix, or improvement gets its own commit before moving on.
 
 ```bash
 git add <specific-files>
 git commit -m "short imperative description"
 git push
 ```
+
+Commit message format: imperative present tense, lowercase, no period. Examples:
+- `add dash ability to player`
+- `fix enemy spawning at wrong edge on level 3`
+- `increase tank health for level 5 balance`
 
 Remote: https://github.com/jusnkrdibl/ClaudeCodeTest
 
